@@ -1,15 +1,16 @@
 # random-levels-of-dirs-and-files-given-arguments
 
-Compile:
-chmod +x generate.sh
-Running:
-./generate.sh dir_name num_of_files num_of_dirs levels
+Compile:<br>
+chmod +x generate.sh<br>
+Running:<br>
+./generate.sh dir_name num_of_files num_of_dirs levels<br>
 
+Εξήγηση:<br>
 - dir_name: το directory όπου θα γραφτούν τα αρχεία.
 - num_of_files: το συνολικό πλήθος των αρχείων
 - num_of_dirs: το συνολικό πλήθος των directories
 - levels: σε πόσα επίπεδα θα κατανέμονται τα directories
-
+<br>
 Το script κάνει τα εξής:
 1. Κάνει ελέγχους για νούμερα εισόδου
 2. Αν το dir_name δεν υπάρχει το δημιουργεί
